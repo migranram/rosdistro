@@ -2265,6 +2265,12 @@ repositories:
       url: https://github.com/introlab/find-object.git
       version: rolling-devel
     status: maintained
+  fkie_message_filters:
+    source:
+      type: git
+      url: https://github.com/fkie/message_filters.git
+      version: ros2
+    status: maintained
   flex_sync:
     doc:
       type: git
@@ -3646,6 +3652,12 @@ repositories:
       url: https://github.com/ros-perception/laser_proc.git
       version: ros2-devel
     status: maintained
+  laser_segmentation:
+    doc:
+      type: git
+      url: https://github.com/ajtudela/laser_segmentation.git
+      version: jazzy
+    status: maintained
   launch:
     doc:
       type: git
@@ -3704,6 +3716,17 @@ repositories:
       url: https://github.com/ros2/launch_ros.git
       version: jazzy
     status: maintained
+  ld08_driver:
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/ld08_driver-release.git
+      version: 1.1.1-1
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/ld08_driver.git
+      version: jazzy
+    status: developed
   leo_common:
     doc:
       type: git
@@ -4680,6 +4703,14 @@ repositories:
       type: git
       url: https://github.com/FraunhoferIOSB/multisensor_calibration.git
       version: main
+    release:
+      packages:
+      - multisensor_calibration
+      - multisensor_calibration_interface
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/multisensor_calibration-release.git
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/FraunhoferIOSB/multisensor_calibration.git
@@ -5223,6 +5254,16 @@ repositories:
       type: git
       url: https://github.com/ompl/ompl.git
       version: main
+    status: developed
+  open_manipulator:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/open_manipulator.git
+      version: jazzy
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/open_manipulator.git
+      version: jazzy
     status: developed
   open_sound_control_ros:
     source:
@@ -7002,7 +7043,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_zenoh-release.git
-      version: 0.2.2-1
+      version: 0.2.3-1
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
@@ -7041,7 +7082,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/robot_localization-release.git
-      version: 3.8.1-1
+      version: 3.8.2-1
     source:
       test_pull_requests: true
       type: git
@@ -7159,6 +7200,11 @@ repositories:
       type: git
       url: https://github.com/ros-controls/ros2_control_cmake.git
       version: master
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/ros2_control_cmake-release.git
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control_cmake.git
@@ -7503,7 +7549,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros_ign-release.git
-      version: 1.0.9-1
+      version: 1.0.11-1
     source:
       test_pull_requests: true
       type: git
@@ -8227,7 +8273,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_robot_steering-release.git
-      version: 1.0.0-6
+      version: 1.0.1-2
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_robot_steering.git
@@ -8734,6 +8780,12 @@ repositories:
       url: https://github.com/SICKAG/sick_scan_xd.git
       version: develop
     status: developed
+  sicks300_ros2:
+    doc:
+      type: git
+      url: https://github.com/ajtudela/sicks300_ros2.git
+      version: jazzy
+    status: maintained
   simple_actions:
     doc:
       type: git
@@ -8809,6 +8861,12 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/SteveMacenski/slam_toolbox.git
+      version: jazzy
+    status: maintained
+  slg_msgs:
+    doc:
+      type: git
+      url: https://github.com/ajtudela/slg_msgs.git
       version: jazzy
     status: maintained
   slider_publisher:
@@ -9417,11 +9475,41 @@ repositories:
       url: https://github.com/Jannkar/turtle_nest.git
       version: main
     status: developed
+  turtlebot3:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3.git
+      version: jazzy
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3.git
+      version: jazzy
+    status: developed
+  turtlebot3_autorace:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_autorace.git
+      version: jazzy
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_autorace.git
+      version: jazzy
+    status: developed
+  turtlebot3_manipulation:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_manipulation.git
+      version: jazzy
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_manipulation.git
+      version: jazzy
+    status: developed
   turtlebot3_msgs:
     doc:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
-      version: rolling-devel
+      version: jazzy
     release:
       tags:
         release: release/jazzy/{package}/{version}
@@ -9430,13 +9518,13 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
-      version: rolling-devel
+      version: jazzy
     status: developed
   turtlebot3_simulations:
     doc:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
-      version: ros2
+      version: jazzy
     release:
       packages:
       - turtlebot3_fake_node
@@ -9449,8 +9537,8 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
-      version: ros2
-    status: maintained
+      version: jazzy
+    status: developed
   turtlebot4:
     doc:
       type: git
@@ -10358,6 +10446,23 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/zbar_ros.git
+      version: jazzy
+    status: maintained
+  zed-ros2-interfaces:
+    doc:
+      type: git
+      url: https://github.com/stereolabs/zed-ros2-interfaces.git
+      version: master
+    release:
+      packages:
+      - zed_msgs
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/zed-ros2-interfaces-release.git
+      version: 4.2.5-1
+    source:
+      type: git
+      url: https://github.com/stereolabs/zed-ros2-interfaces.git
       version: jazzy
     status: maintained
   zenoh_bridge_dds:
